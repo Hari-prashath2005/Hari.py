@@ -1,0 +1,15 @@
+def interest_cal(pa):
+    name =input("enter the name:")
+    age =int(input("enter the age:"))
+    gender =input("enter the gender:")
+    if age>60:
+        interest = 12*pa/100
+        print("the interest for senior citizen is :",interest)
+    if gender=='f':
+        f_interest=10*pa/100
+        print("the female interest is:",f_interest)
+    else:
+        n_interest =9*pa/100
+        print("the normal interest is ",n_interest)
+obj = interest_cal(10000)
+print(obj)
